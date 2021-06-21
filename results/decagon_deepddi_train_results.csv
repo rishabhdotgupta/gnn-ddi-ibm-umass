@@ -1,0 +1,2 @@
+fold,epoch,loss,roc_auc,avg_pre,acc,f1,pre,rec
+0,0,0.0270,0.835,0.638,0.000,0.646,0.635,0.675

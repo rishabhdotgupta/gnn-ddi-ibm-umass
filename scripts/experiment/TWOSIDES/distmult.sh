@@ -1,0 +1,15 @@
+python src/main.py \
+    --ne_train=0 \
+    --ne_valid=0 \
+    --new_edge=0 \
+    --data_dir=./data/TWOSIDES \
+    --lr=.001 \
+    --model_name=distmult \
+    --data_ratio=100 \
+    --use_ssp=0 \
+    --train_size=0.6 \
+    --valid_size=0.2 \
+    --epoch=300 \
+    --n_iter_no_change=100 \
+    --batch_size=100 \
+    --no_cuda \
